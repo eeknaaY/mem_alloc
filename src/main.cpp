@@ -2,7 +2,7 @@
 
 int main()
 {
-    // Allocates memory from VirtualAllocation(), minimum at 1 page. (4096KB, depending on system)
+    // Allocates memory from VirtualAllocation(), minimum at 1 page. (4096B, depending on system)
     void* ptr = calloc(64);
     cfree(ptr);
 
